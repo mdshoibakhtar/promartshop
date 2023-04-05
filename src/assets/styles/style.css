@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, sans-serif;
+  --tw-text-opacity: 1;
+  color: rgb(90 90 90 / var(--tw-text-opacity));
+  -webkit-font-smoothing: antialiased;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+}
+.slick-arrow {
+  display: none !important;
+}
+.logospecification {
+  overflow: hidden;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  width: 115px;
+  height: 40px;
+}
+.topNav {
+  background-color: #f97316;
+}
+.cartCount {
+  top: -6px;
+  right: -18px;
+}
+.font-size {
+  font-size: 14px;
+  padding: 0 5px;
+}
+.hoverClass a {
+  transition: width 2s, height 2s, transform 8s, 0.5s ease-in-out;
+}
+.roatet-180 svg {
+  font-size: 22px;
+}
+.megaDropdown {
+  display: none;
+  left: 0;
+  top: 40px;
+  padding: 30px;
+  background-color: #e2e8f0;
+  overflow-y: scroll;
+  height: 400px;
+}
+.hoverClass a:hover .roatet-180 svg {
+  transform: rotate(-180deg);
+  transition: 0.5s ease-in-out;
+}
+.hoverClass a:hover .megaDropdown {
+  display: block;
+}
+.unlist {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.unlist li a {
+  text-decoration: none;
+  color: #000;
+  /* width: 100%; */
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+/* .unlist li a:hover {
+  background-color: rgb(235, 232, 227);
+} */
+.sliderImg img {
+  width: 100%;
+}
+.z-index {
+  z-index: 99;
+}
+.maximum-width {
+  width: 1650px;
+}
+.bordersolid {
+  overflow: hidden;
+  border-radius: 50%;
+}
+.bordersolid a {
+  text-decoration: none;
+}
+.left-btn {
+  left: 67px;
+  padding: 11px 14px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  cursor: pointer;
+}
+.left-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.right-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.right-btn {
+  right: 67px;
+  padding: 11px 14px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  cursor: pointer;
+}
+.heightFix {
+  height: 180px;
+  overflow: hidden;
+  transition: transform 0.4s; /* Animation */
+}
+
+.heightFix:hover {
+  transform: scale(
+    1.05
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  overflow: hidden;
+}
+.fontSize {
+  font-size: 17px;
+  font-weight: 600;
+  color: #584848;
+  text-align: center;
+}
+/* .leftcard-btn {
+  bottom: -40px;
+} */
+.paraColor {
+  color: #584848;
+}
+.heightFix2 {
+  height: 230px;
+}
+.arrivalsCards:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  margin-top: -2px;
+}
+.mar {
+  margin: 18px 0;
+  color: #584848;
+}
+.btnz-index {
+  z-index: 7;
+}
+.bgColor {
+  background-color: #f9f9f9;
+}
+.emailInp {
+  border: solid 1px rgb(221, 204, 204);
+  border-radius: 4px;
+  outline: none;
+}
+.footerunlist li a {
+  padding: 1px 0 1px 0;
+  font-weight: 200;
+}
+.bgLfooter {
+  background-color: #ffffff;
+}
+.socialIcon svg {
+  font-size: 22px;
+  margin: 0 8px 0 0;
+}

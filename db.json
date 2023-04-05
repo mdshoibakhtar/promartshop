@@ -1,0 +1,54 @@
+{
+  "empData": [
+    {
+      "id": "1",
+      "empTitle": "Margaret",
+      "profile": "doctor"
+    },
+    {
+      "id": "2",
+      "empTitle": "Sonu",
+      "profile": "singer"
+    },
+    {
+      "id": "3",
+      "empTitle": "Monu",
+      "profile": "dancer"
+    },
+    {
+      "id": "4",
+      "empTitle": "Rohan",
+      "profile": "scientist"
+    },
+    {
+      "id": "5",
+      "empTitle": "Shohan",
+      "profile": "conductor"
+    },
+    {
+      "id": "6",
+      "empTitle": "Anandmohan",
+      "profile": "Teacher"
+    },
+    {
+      "id": "7",
+      "empTitle": "Ayan",
+      "profile": "student"
+    },
+    {
+      "id": "8",
+      "empTitle": "Asad",
+      "profile": "mechanical ENG..."
+    },
+    {
+      "id": "9",
+      "empTitle": "Ajmal",
+      "profile": "Desiginer"
+    },
+    {
+      "id": "10",
+      "empTitle": "Daud",
+      "profile": "Ui developer"
+    }
+  ]
+}
