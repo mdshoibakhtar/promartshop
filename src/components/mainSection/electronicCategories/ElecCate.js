@@ -25,7 +25,8 @@ export const ElecCate = () => {
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: false
+                    dots: false,
+                    draggable: true
                 }
             },
             {
@@ -33,14 +34,16 @@ export const ElecCate = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    initialSlide: 2
+                    initialSlide: 2,
+                    draggable: true
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    draggable: true,
                 }
             }
         ]
@@ -50,7 +53,7 @@ export const ElecCate = () => {
         <div className="container-fluid">
 
             <div className="row mt-5">
-                <div className=" maximum-width m-auto position-relative">
+                <div className=" maximum-width m-auto position-relative col">
                     <h3 className="fw-bold">Electronics Category</h3>
 
                     < div className="d-flex justify-content-between px-3 position-absolute w-100 btnz-index h-100 align-items-center">
