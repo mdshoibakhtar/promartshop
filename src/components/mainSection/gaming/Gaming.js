@@ -10,7 +10,7 @@ export const Gaming = () => {
                     <h3 className="fw-bold mar">Gaming</h3>
                     <div className="row">
                         {data.map((value) => {
-                            return <div className="col-md-2" key={value.id}>
+                            return <div className="col-md-2 col-lg-4 col-xl-2 cam-width" key={value.id}>
                                 <img src={value.mobImg} alt="no img found" />
                             </div>
 

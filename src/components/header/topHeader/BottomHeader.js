@@ -24,7 +24,7 @@ import tefal from "../../../assets/images/homebrandIcon/tefal.png"
 import beeding from "../../../assets/images/homebrandIcon/home.jpg"
 export const BotHeader = () => {
     return (
-        <Navbar bg="light" variant="light" className='p-0'>
+        <Navbar bg="light" variant="light" className='p-0 d-lg-block  d-lg-fs-1 fs-lg-1 d-none '>
             <div className="container-fluid">
                 <Nav className="me-auto fst-normal hoverClass">
                     <Nav.Link href="#home" className=' px-3'><span className='fw-bold'>All categories</span> <span className='roatet-180 '><MdOutlineKeyboardArrowDown /></span>

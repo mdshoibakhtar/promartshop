@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header } from './components/header/Header';
 
 import "./assets/styles/style.css"
+import "./assets/styles/mediaqurey.css"
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Comingpages from './Pages/coming-pages';
 import React from 'react';
