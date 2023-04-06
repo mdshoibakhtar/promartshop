@@ -11,7 +11,7 @@ export const Footer = () => {
     return (
         <div className="container-fluid bgLfooter">
             <div className="maximum-width m-auto pt-5 pb-2">
-                <div className="row">
+                <div className="row w-100">
                     <div className="col-md-2">
                         <strong className="py-4 d-block  fs-5">Electronics</strong>
                         <ul className='unlist footerunlist'>
