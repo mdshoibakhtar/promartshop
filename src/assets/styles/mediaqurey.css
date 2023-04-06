@@ -5,14 +5,29 @@
   .maximum-width {
     width: auto;
   }
+  .cam-width {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .mar {
+    padding-left: 55px;
+  }
 }
 
-@media all and (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 576px) and (max-width: 992px) {
   .maximum-width {
     width: auto;
   }
   .cam-width img {
     width: 100%;
+  }
+  .cam-width {
+    width: 50%;
+    padding: 16px;
+  }
+  body {
+    background-color: red;
   }
 }
 
@@ -25,10 +40,15 @@
     display: flex;
     justify-content: center;
   }
+  .cam-width {
+    height: 50%;
+    padding: 16px 0;
+  }
   .heightFix,
-  .heightFix2 img {
+  .heightFix2 {
     height: 100%;
   }
+
   footer {
     text-align: center;
   }

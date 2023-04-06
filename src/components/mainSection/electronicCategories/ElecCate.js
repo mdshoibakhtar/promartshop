@@ -54,12 +54,12 @@ export const ElecCate = () => {
                     <h3 className="fw-bold">Electronics Category</h3>
 
                     < div className="d-flex justify-content-between px-3">
-                        <div className="position-realtive">
-                            <div className=" bordersolid btnz-index position-absolute left-btn " onClick={() => { slideRef.current.slickPrev() }}>
+                        <div className="d-flex btnDiv ">
+                            <div className=" bordersolid btnz-index position-absolute left-btn   " onClick={() => { slideRef.current.slickPrev() }}>
                                 <FaAngleLeft />
                             </div>
-                            <div className=" bordersolid btnz-index position-absolute right-btn" onClick={() => { slideRef.current.slickNext() }}><FaAngleRight /> </div>
                         </div>
+                        <div className=" bordersolid btnz-index position-absolute right-btn" onClick={() => { slideRef.current.slickNext() }}><FaAngleRight /> </div>
                     </div>
                     <Slider ref={slideRef} {...settings}>
 
