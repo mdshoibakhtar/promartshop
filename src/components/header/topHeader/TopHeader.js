@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export const TopHeader = () => {
     return (
         <Navbar className='p-0 topNav'>
-            <div className='container-fluid'>
+            <div className='container-fluid justify-xs-center'>
                 <Navbar.Brand className='ps-4 py-0 pe-0'>
                     <Link to="/">
                         <img
@@ -17,7 +17,7 @@ export const TopHeader = () => {
                     </Link>
                 </Navbar.Brand>
 
-                <div className='fs-6 fw-bolder'>
+                <div className='fs-6 fw-bolder d-none d-md-block d-lg-block d-xl-block'>
                     <span className='px-2'><BiSearchAlt2 /></span>
                     <span className='px-2'>Sign In</span>
                     <span className='px-2'>

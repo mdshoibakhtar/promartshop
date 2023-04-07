@@ -14,8 +14,8 @@ export const ElecCate = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 15,
-        slidesToScroll: 1,
+        slidesToShow: 10,
+        slidesToScroll: 4,
         initialSlide: 1,
         draggable: true,
         responsive: [
@@ -56,13 +56,15 @@ export const ElecCate = () => {
                 <div className=" maximum-width m-auto position-relative col">
                     <h3 className="fw-bold">Electronics Category</h3>
 
-                    < div className="d-flex justify-content-between px-3 position-absolute w-100 btnz-index h-100 align-items-center">
+                    < div className="d-flex justify-content-between px-3 position-absolute w-100 btnz-index h-100 align-items-center left-3">
                         <div className=" ">
                             <div className=" bordersolid btnz-index  left-btn   " onClick={() => { slideRef.current.slickPrev() }}>
                                 <FaAngleLeft />
                             </div>
                         </div>
-                        <div className=" bordersolid btnz-index position-absolute right-btn" onClick={() => { slideRef.current.slickNext() }}><FaAngleRight /> </div>
+                        <div>
+                            <div className=" bordersolid btnz-index position-absolute right-btn" onClick={() => { slideRef.current.slickNext() }}><FaAngleRight /> </div>
+                        </div>
                     </div>
                     <Slider ref={slideRef} {...settings}>
 
@@ -73,7 +75,7 @@ export const ElecCate = () => {
                                         <figure className="  bordersolid">
                                             <img src={value.img} width={100 + "%"} alt="no-img found  " />
                                         </figure>
-                                        <figcaption>
+                                        <figcaption className="text-center">
                                             <h5>{value.title}</h5>
                                         </figcaption>
                                     </Link>

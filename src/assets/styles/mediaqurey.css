@@ -22,7 +22,13 @@
     font-size: 10px;
   }
 }
-
+/* * {
+  overflow-x: hidden;
+  border: solid 1px red;
+} */
+.left-3 {
+  left: -3px;
+}
 @media (min-width: 576px) and (max-width: 992px) {
   .maximum-width {
     width: auto;
@@ -70,6 +76,9 @@
   }
   .carouselWrapper figcaption {
     text-align: center;
+  }
+  .justify-xs-center {
+    justify-content: center !important;
   }
 }
 

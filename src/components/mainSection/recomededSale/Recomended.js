@@ -54,7 +54,7 @@ export const Recomended = () => {
                 <div className=" maximum-width m-auto position-relative">
                     <h3 className="fw-bold">Recommended for sale</h3>
 
-                    < div className="d-flex justify-content-between px-3 position-absolute w-100 btnz-index h-100 align-items-center">
+                    < div className="d-flex justify-content-between px-3 position-absolute w-100 btnz-index h-100 align-items-center left-3">
                         <div className="">
                             <div className=" bordersolid btnz-index position-absolute left-btn " onClick={() => { slideRef.current.slickPrev() }}>
                                 <FaAngleLeft />
