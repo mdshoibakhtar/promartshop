@@ -9,7 +9,7 @@ export const LedTv = () => {
                 <div className="  maximum-width m-auto">
                     <div className="row my-5">
                         {ledData.map((value) => {
-                            return <div className="col-md-3" key={value.id}>
+                            return <div className="col-md-3 col-xs" key={value.id}>
                                 <figure>
                                     <img src={value.img} width={100 + "%"} alt="no img found" />
                                 </figure>

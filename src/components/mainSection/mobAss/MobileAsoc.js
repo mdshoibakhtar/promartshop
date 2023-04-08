@@ -11,7 +11,7 @@ export const MobileAcceocries = () => {
                     <h3 className="fw-bold mar">Mobile & Accessories</h3>
                     <div className="row">
                         {data.map((value) => {
-                            return <div className="col-md-2 col-lg-4 col-xl-2 cam-width" key={value.id}>
+                            return <div className="col-md-2 col-lg-4 col-xl-2 col-4 cam-width" key={value.id}>
                                 <Link to={value.comPagesLink}>
                                     <img src={value.mobImg} alt="no img found" />
                                 </Link>

@@ -12,7 +12,7 @@ export const Footer = () => {
         <div className="container-fluid bgLfooter">
             <div className="maximum-width m-auto pt-5 pb-2">
                 <div className="row w-100">
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <strong className="py-4 d-block  fs-5">Electronics</strong>
                         <ul className='unlist footerunlist'>
                             <li>
@@ -59,7 +59,7 @@ export const Footer = () => {
 
                         </ul>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <strong className="py-4 d-block  fs-5">Fashion</strong>
                         <ul className='unlist footerunlist'>
                             <li>
@@ -106,7 +106,7 @@ export const Footer = () => {
 
                         </ul>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <strong className="py-4 d-block">Home</strong>
                         <ul className='unlist footerunlist'>
                             <li>
@@ -167,7 +167,7 @@ export const Footer = () => {
 
                         </ul>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <strong className="py-4 d-block">Beauty</strong>
                         <ul className='unlist footerunlist'>
                             <li>
@@ -221,7 +221,7 @@ export const Footer = () => {
 
                         </ul>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <strong className="py-4 d-block">Baby & Toys
                         </strong>
                         <ul className='unlist footerunlist'>
@@ -276,7 +276,7 @@ export const Footer = () => {
 
                         </ul>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <strong className="py-4 d-block">Grocery
                         </strong>
                         <ul className='unlist footerunlist'>
@@ -337,7 +337,7 @@ export const Footer = () => {
             {/* social footer */}
             <div className="maximum-width m-auto pb-5 ">
                 <div className="row">
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <span className="py-4 d-block  fs-5">Social</span>
                         <ul className='unlist footerunlist socialIcon'>
                             <li>
@@ -362,7 +362,7 @@ export const Footer = () => {
 
                         </ul>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <span className="py-4 d-block  fs-5">Contact
                         </span>
                         <ul className='unlist footerunlist'>
@@ -390,7 +390,7 @@ export const Footer = () => {
 
                         </ul>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <span className="py-4 d-block  fs-5">About
                         </span>
                         <ul className='unlist footerunlist'>
@@ -417,7 +417,7 @@ export const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <span className="py-4 d-block  fs-5">Customer Care
 
                         </span>
@@ -447,7 +447,7 @@ export const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <span className="py-4 d-block  fs-5">Our Information
 
                         </span>
@@ -477,7 +477,7 @@ export const Footer = () => {
 
                         </ul>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <span className="py-4 d-block  fs-5">Community
 
                         </span>
@@ -513,27 +513,30 @@ export const Footer = () => {
 
             <div className="maximum-width m-auto py-2">
                 <div className="row ">
-                    <div className="col-md-12 d-flex justify-content-between">
-                        <div className="font-size ">
-                            <span> Copyright © 2023 <b>Capital Technology</b>  All rights reserved</span>
+                    <div className="col-12  ">
+                        <div className="row">
+                            <div className="font-size  col-md-6 col-12 center-block">
+                                <span> Copyright © 2023 <b>Capital Technology</b>  All rights reserved</span>
+                            </div>
+                            <div className="col-md-6 col-12">
+                                <Link className="px-1">
+                                    <img src={mastercard} alt="card img" />
+                                </Link>
+                                <Link className="px-1">
+                                    <img src={visa} alt="card img" />
+                                </Link>
+                                <Link className="px-1">
+                                    <img src={paypal} alt="card img" />
+                                </Link>
+                                <Link className="px-1">
+                                    <img src={jcb} alt="card img" />
+                                </Link>
+                                <Link className="px-1">
+                                    <img src={skril} alt="card img" />
+                                </Link>
+                            </div>
                         </div>
-                        <div className="">
-                            <Link className="px-1">
-                                <img src={mastercard} alt="card img" />
-                            </Link>
-                            <Link className="px-1">
-                                <img src={visa} alt="card img" />
-                            </Link>
-                            <Link className="px-1">
-                                <img src={paypal} alt="card img" />
-                            </Link>
-                            <Link className="px-1">
-                                <img src={jcb} alt="card img" />
-                            </Link>
-                            <Link className="px-1">
-                                <img src={skril} alt="card img" />
-                            </Link>
-                        </div>
+
                     </div>
                 </div>
             </div>

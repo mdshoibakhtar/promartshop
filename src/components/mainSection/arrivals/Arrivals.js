@@ -25,7 +25,7 @@ export const Arrivals = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: false
@@ -34,7 +34,7 @@ export const Arrivals = () => {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 2,
                     initialSlide: 2
                 }
@@ -42,7 +42,7 @@ export const Arrivals = () => {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll: 1
                 }
             }

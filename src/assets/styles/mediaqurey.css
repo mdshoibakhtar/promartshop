@@ -1,5 +1,5 @@
 /* * {
-  border: solid 0.5px red;
+  border: solid 0.2px red;
 } */
 @media screen and (min-width: 992px) {
   .maximum-width {
@@ -37,8 +37,8 @@
     width: 100%;
   }
   .cam-width {
-    width: 50%;
-    padding: 16px;
+    width: 16.5%;
+    padding: 20px;
   }
   .left-btn,
   .right-btn {
@@ -54,10 +54,18 @@
   .mar {
     display: flex;
     justify-content: center;
+    font-size: 100%;
   }
   .cam-width {
-    height: 50%;
-    padding: 16px 0;
+    /* height: 10%; */
+    /* padding: 16px 0; */
+    padding: 4px;
+  }
+  .cam-width {
+    width: 33%;
+  }
+  .cam-width img {
+    width: 100%;
   }
   .heightFix,
   .heightFix2 {
@@ -65,7 +73,8 @@
   }
 
   footer {
-    text-align: center;
+    /* text-align: center; */
+    font-size: 12px;
   }
   .left-btn,
   .right-btn {
@@ -79,6 +88,28 @@
   }
   .justify-xs-center {
     justify-content: center !important;
+  }
+  .col-xs {
+    width: 50%;
+  }
+  .col-xs figcaption {
+    font-size: 15px;
+  }
+  #btn1 {
+    width: 100%;
+    margin: 10px 0 !important;
+  }
+  .alignItem {
+    justify-content: center;
+  }
+  .emaiInput {
+    width: 100%;
+  }
+  #padd-0 {
+    padding: 10px 7px !important;
+  }
+  .emailInp {
+    width: 100% !important;
   }
 }
 
