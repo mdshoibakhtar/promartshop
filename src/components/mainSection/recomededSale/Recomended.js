@@ -40,7 +40,7 @@ export const Recomended = () => {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             }

@@ -29,6 +29,12 @@
 .left-3 {
   left: -3px;
 }
+.carouselWrapper figcaption .fontSize {
+  font-size: 14px;
+}
+.carouselWrapper .paraColor {
+  font-size: 12px;
+}
 @media (min-width: 576px) and (max-width: 992px) {
   .maximum-width {
     width: auto;
