@@ -37,7 +37,7 @@
     width: 100%;
   }
   .cam-width {
-    width: 16.5%;
+    width: 33%;
     padding: 20px;
   }
   .left-btn,
@@ -46,6 +46,9 @@
   }
   .col-xs {
     width: 50%;
+  }
+  .less-576-t-center {
+    text-align: center;
   }
 }
 
