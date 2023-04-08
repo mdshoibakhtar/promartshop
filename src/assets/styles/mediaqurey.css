@@ -73,7 +73,6 @@
   }
 
   footer {
-    /* text-align: center; */
     font-size: 12px;
   }
   .left-btn,
@@ -110,6 +109,10 @@
   }
   .emailInp {
     width: 100% !important;
+  }
+  .less-576-t-center {
+    text-align: center;
+    padding: 7px 0;
   }
 }
 

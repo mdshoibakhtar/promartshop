@@ -514,11 +514,11 @@ export const Footer = () => {
             <div className="maximum-width m-auto py-2">
                 <div className="row ">
                     <div className="col-12  ">
-                        <div className="row">
-                            <div className="font-size  col-md-6 col-12 center-block">
+                        <div className="row ">
+                            <div className="font-size  col-md-6 col-12 less-576-t-center">
                                 <span> Copyright © 2023 <b>Capital Technology</b>  All rights reserved</span>
                             </div>
-                            <div className="col-md-6 col-12">
+                            <div className="col-md-6 col-12 less-576-t-center">
                                 <Link className="px-1">
                                     <img src={mastercard} alt="card img" />
                                 </Link>
