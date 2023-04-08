@@ -40,6 +40,9 @@
     width: 33%;
     padding: 20px;
   }
+  .maximum-width h3 {
+    text-align: center;
+  }
   .left-btn,
   .right-btn {
     display: none;
